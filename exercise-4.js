@@ -1,13 +1,13 @@
 // Find and fix the syntax error of the code below
 
-async function sleep() {
-     return new Promise(resolve => setTimeout(resolve, 1000));
+async function sleep(brand) {
+     console.log(`${brand} executed!`);
 }
 
 async function executeLoop(list) {
      list.forEach(brand => {
           console.log('Executing... ' + brand);
-          await sleep();
+          await sleep(brand);
      });
 }
 
