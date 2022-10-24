@@ -1,4 +1,13 @@
-// Update the getDayTimeDifference() function so it will return the difference between 2 dates in days, hours, minutes and seconds
+// Update the getDayTimeDifference() function so it will return the difference between 2 dates broken down in days, hours, minutes and seconds
+/*
+======================================================
+Example output of current date is 2022-10-24 14:49:36
+======================================================
+Days Elapsed: 145
+Hours Elapsed: 6
+Minutes Elapsed: 49
+Seconds Elapsed: 36
+*/
 
 function getDayTimeDifference(currentDate, refDate){
      let seconds = null;

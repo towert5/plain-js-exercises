@@ -1,4 +1,5 @@
-// Import the inventory list from data.js and sort it by priority using the array below as reference
+// Import the inventory list from exercise-3-data.js and sort it by priority using the array below as reference. See exercise-3-output.txt for the exepected output.
+
 const brandPriority = [
      { brand: 'GOODYEAR', priority: 0 },
      { brand: 'DUNLOP', priority: 1 },

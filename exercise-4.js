@@ -1,4 +1,4 @@
-// Find and fix the syntax error of the code below
+// Find out why Line 10 "await sleep();" in executeLoop() function is throwing an error and fix it
 
 async function sleep() {
      return new Promise(resolve => setTimeout(resolve, 1000));
